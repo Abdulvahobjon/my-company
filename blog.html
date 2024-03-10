@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+    <title>Cinestar - Blog</title>
+</head>
+
+<body>
+    <!-- Scripts -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+
+    <!-- Header -->
+    <div class="sticky-top py-2 bg-dark-color">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo-container">
+                        <img src="image/logo.png" alt="" class="img-fluid">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                    <div class="collapse navbar-collapse pt-lg-0 pt-3" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 ">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">HOMEPAGE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about_us.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PORTFOLIO
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="portfolio.html">PORTFOLIO</a></li>
+                                    <li><a class="dropdown-item" href="project_detail.html">PROJECT DETAIL</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PAGE
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                    <li><a class="dropdown-item active" href="blog.html">BLOG ARCHIVES</a></li>
+                                    <li><a class="dropdown-item" href="single_post.html">SINGLE POST</a></li>
+                                    <li><a class="dropdown-item" href="pricing.html">PRICING PLAN</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Of Header -->
+
+    <main class="text-white">
+        <!-- BANNER -->
+        <section class="section position-relative">
+            <div class="bg-overlay-1"></div>
+            <div class="r-container position-relative" style="z-index: 2;">
+                <div class="d-flex flex-column">
+                    <h2 class="font-2 text-white fw-bold">BLOG ARCHIVES</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item font-1 fw-bold"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active font-1 fw-bold" aria-current="page">BLOG ARCHIVES</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-lg-row flex-column-reverse gap-3">
+                    <div class="col col-lg-4 pe-lg-3">
+                        <div class="d-flex flex-column gap-5">
+                            <div class="d-flex flex-column justify-content-center position-relative bg-dark-2 p-5">
+                                <div class="texture-overlay"></div>
+                                <div class="position-relative text-center" style="z-index: 2;">
+                                    <h3 class="font-2 fw-bold lh-1">HAVE IDEA IN YOUR MIND ?</h3>
+                                    <h5 class="accent-color fw-bold font-1">LETS START YOUR PROJECT</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div>
+                                        <a href="contact.html" 
+                                            class="px-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1">
+                                            CONTACT US
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <h5 class="fs-4 font-2 fw-bold">DOWNLOAD COMPANY POLICIES</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus quis risus
+                                    ac lacinia. Phasellus vestibulum non ex quis porta. </p>
+                                <div>
+                                    <a href=""  
+                                        class="px-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1">
+                                        <i class="fa-solid fa-file-pdf"></i>
+                                        DOWNLOAD PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-8 h-100">
+                        <div class="row row-cols-1">
+                            <div class="col mb-3">
+                                <div class="card h-100 rounded-0 p-1 bg-transparent">
+                                    <img src="image/image-600x400-1.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <a href="single_post.html" class="link font-1">
+                                            <h5>TAKING THE SCANS FOR THE MUSIC ALBUM BY RURI</h5>
+                                        </a>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus
+                                            quis risus ac lacinia. Phasellus vestibulum non ex quis porta. Proin non
+                                            ligula tincidunt, porttitor ipsum ut, pellentesque tortor. Curabitur
+                                            efficitur elit risus, sed blandit purus vestibulum congue. Ut pretium
+                                            facilisis arcu, a sollicitudin est…
+                                        </p>
+                                        <div>
+                                            <a href="single_post.html" 
+                                                class="px-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1">
+                                                READ MORE
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card h-100 rounded-0 p-1 bg-transparent">
+                                    <img src="image/image-600x400-2.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <a href="single_post.html" class="link font-1">
+                                            <h5>TVC PRODUCTION IS A DIFFERENT CHALLENGE WITH SOME DIFFICULTIES</h5>
+                                        </a>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus
+                                            quis risus ac lacinia. Phasellus vestibulum non ex quis porta. Proin non
+                                            ligula tincidunt, porttitor ipsum ut, pellentesque tortor. Curabitur
+                                            efficitur elit risus, sed blandit purus vestibulum congue. Ut pretium
+                                            facilisis arcu, a sollicitudin est…
+                                        </p>
+                                        <div>
+                                            <a href="single_post.html" 
+                                                class="px-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1">
+                                                READ MORE
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card h-100 rounded-0 p-1 bg-transparent">
+                                    <img src="image/image-600x400-3.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <a href="" class="link font-1">
+                                            <h5>THE STORY BEHIND MAKING MOVIE PRODUCTION THAT MAKE YOU FEEL IT</h5>
+                                        </a>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus
+                                            quis risus ac lacinia. Phasellus vestibulum non ex quis porta. Proin non
+                                            ligula tincidunt, porttitor ipsum ut, pellentesque tortor. Curabitur
+                                            efficitur elit risus, sed blandit purus vestibulum congue. Ut pretium
+                                            facilisis arcu, a sollicitudin est…
+                                        </p>
+                                        <div>
+                                            <a href=""  
+                                                class="px-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1">
+                                                READ MORE
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card h-100 rounded-0 p-1 bg-transparent">
+                                    <img src="image/image-600x400-4.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <a href="single_post.html" class="link font-1">
+                                            <h5>THE 15 FILMS ON THE DOCUMENTARY FEATURE SHORTLIST</h5>
+                                        </a>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus
+                                            quis risus ac lacinia. Phasellus vestibulum non ex quis porta. Proin non
+                                            ligula tincidunt, porttitor ipsum ut, pellentesque tortor. Curabitur
+                                            efficitur elit risus, sed blandit purus vestibulum congue. Ut pretium
+                                            facilisis arcu, a sollicitudin est…
+                                        </p>
+                                        <div>
+                                            <a href="single_post.html" 
+                                                class="px-4 py-2 btn button accent-color button-outline rounded-0 fw-bold font-1">
+                                                READ MORE
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section position-relative bg-secondary-dark">
+            <div class="texture-overlay"></div>
+            <div class="r-container position-relative" style="z-index: 2;">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col pe-lg-5">
+                        <h5 class="accent-color lh-1 ls-2 fw-bold font-1">BLOG THAT MIGHT HELPING YOU</h5>
+                        <h3 class="font-2 lh-1 fw-bold">SUBSCRIBE NOW FOR OUR LATEST BLOG</h3>
+                    </div>
+                    <div class="col">
+                        <form class="w-100 h-100 d-flex justify-content-center align-items-center form needs-validation">
+                            <input type="text" name="action" value="subscribe" hidden>
+                            <div class="input-group mb-3">
+                                <input type="email" name="email"
+                                    class="form-control border border-white" placeholder="Email"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                                <button class="btn button button-outline accent-color btn_submit-subscribe py-3 px-5 font-1 fw-bold"
+                                    type="submit" id="button-addon2">SUBSCRIBE NOW</button>
+                            </div>
+                        </form>
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="liveToast" class="toast success_msg_subscribe bg-dark-transparent text-white"
+                                role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="d-flex">
+                                    <div class="toast-body">
+                                        Your Subscribe Send Successfully!.
+                                    </div>
+                                    <button type="button" class="btn me-2 m-auto text-white" data-bs-dismiss="toast"
+                                        aria-label="Close">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-white">
+        <section class="section py-5 border-top border-2">
+            <div class="r-container">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                    <h3 class="font-2 mb-3">HAVE IDEA IN YOUR MIND ? LET'S START YOUR PROJECT WITH US</h3>
+                    <h5 class="font-1 mb-5 fw-bold accent-color">CINESTAR STUDIO, +123-456-789 OR HELLO@AWESOMESITE.COM
+                    </h5>
+                    <div class="d-flex flex-row flex-wrap gap-4 justify-content-center">
+                        <a href="https://www.facebook.com" class="font-2 link-social">FACEBOOK</a>
+                        <a href="https://www.twitter.com" class="font-2 link-social">TWITTER</a>
+                        <a href="https://www.linkedin.com" class="font-2 link-social">LINKEDIN</a>
+                        <a href="https://www.instagram.com" class="font-2 link-social">INSTAGRAM</a>
+                        <a href="https://www.youtube.com" class="font-2 link-social">YOUTUBE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="py-3 position-relative bg-secondary-dark">
+            <div class="texture-overlay"></div>
+            <div class="r-container position-relative" style="z-index: 2;">
+                <div
+                    class="d-flex flex-lg-row flex-column text-center gap-3 justify-content-between align-items-center">
+                    <div class="logo-container">
+                        <img src="image/logo.png" alt="" class="img-fluid">
+                    </div>
+                    <span>
+                        COPYRIGHT 2023 © CINESTAR | POWERED BY ROMETHEME STUDIO
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/fslightbox.js"></script>
+    <script src="js/masonry.js"></script>
+</body>
+
+</html>
